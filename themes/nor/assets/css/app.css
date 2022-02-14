@@ -6,7 +6,8 @@
 }
 
 .site-footer {
-    background-color: aqua;
+    background-color: #231D1D;
+    height: 200px;
 }
 
 .search-form {
@@ -31,4 +32,9 @@ ul > li {
     font-size: 21px;
     margin-left: 15px;
     margin-top: 10px;
+}
+
+.site-footer {
+    margin-top: 200px;
+    padding: 50px;
 }
