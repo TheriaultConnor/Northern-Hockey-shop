@@ -1,0 +1,24 @@
+.header-main{
+    height: 100px;
+    background-color: #231D1D;
+    justify-content: center;
+    padding: 20px;
+}
+
+.site-footer {
+    background-color: aqua;
+}
+
+.search-form {
+    width: 480px;
+    text-align: right;
+    float: right;
+}
+
+.search-submit {
+    display: none;
+}
+
+#site-logo {
+    color: white;
+}
