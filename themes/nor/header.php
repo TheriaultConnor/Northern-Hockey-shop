@@ -16,21 +16,23 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="stylesheet" href="https://use.typekit.net/dbb6oev.css">
+	<link rel="stylesheet" href="https://use.typekit.net/dbb6oev.css">
+
+
+
+
 
 	<?php wp_head(); ?>
 </head>
 
 <header class="grid-x header-main">
-<div class="large-5"><nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'nor' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?></div>	
+<div class="large-5"><ul>
+	<li>New Gear</li>
+	<li>Sticks</li>
+	<li>Protective</li>
+	<li>Goalie</li>
+</ul></div>	
 <div class="cell large-3"><h1 id="site-logo">Northern Hockey</h1></div>
 <div class="cell large-4"><?php get_search_form(); ?></div>
 

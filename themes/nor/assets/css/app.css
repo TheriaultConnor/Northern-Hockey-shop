@@ -21,4 +21,14 @@
 
 #site-logo {
     color: white;
+    font-family: rockwell, sans-serif;
+}
+
+ul > li {
+    display: inline-block;
+    color: white;
+    font-family: myriad-pro;
+    font-size: 21px;
+    margin-left: 15px;
+    margin-top: 10px;
 }
