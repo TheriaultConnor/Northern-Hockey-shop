@@ -139,7 +139,6 @@ add_action( 'widgets_init', 'nor_widgets_init' );
  */
 function nor_scripts() {
 	wp_enqueue_style( 'nor-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'nor-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'nor-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
