@@ -28,13 +28,22 @@
 
 <header class="grid-x header-main">
 <div class="large-5"><ul>
-	<li>New Gear</li>
-	<li>Sticks</li>
-	<li>Protective</li>
-	<li>Goalie</li>
+<nav id="site-navigation" class="main-navigation">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '', 'nor' ); ?></button>
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu',
+				)
+			);
+			?>
+		</nav><!-- #site-navigation -->
 </ul></div>	
-<div class="cell large-3"><h1 id="site-logo">Northern Hockey</h1></div>
+<div class="cell large-3"><a href="http://theriault100976473.local/"><h1 id="site-logo">Northern Hockey</h1></a> </div>
 <div class="cell large-4"><?php get_search_form(); ?></div>
+
+
 
 </header>
 

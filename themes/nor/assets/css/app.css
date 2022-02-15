@@ -1,8 +1,12 @@
+body {
+    background-color:#F8F1F1;
+}
+
 .header-main{
     height: 100px;
     background-color: #231D1D;
     justify-content: center;
-    padding: 20px;
+
 }
 
 .site-footer {
@@ -12,29 +16,57 @@
 
 .search-form {
     width: 480px;
-    text-align: right;
-    float: right;
+    
+    padding-top: 35px;
 }
 
 .search-submit {
     display: none;
+   
 }
 
 #site-logo {
     color: white;
     font-family: rockwell, sans-serif;
+    padding-top: 20px;
 }
 
-ul > li {
+.menu_id, a {
     display: inline-block;
     color: white;
     font-family: myriad-pro;
     font-size: 21px;
-    margin-left: 15px;
-    margin-top: 10px;
+    
 }
 
 .site-footer {
     margin-top: 200px;
     padding: 50px;
+}
+
+.card {
+    width: 255px;
+    height: 395px;
+    border: .5px solid #231D1D;
+    margin-bottom: 80px;
+}
+
+#department-card {
+    width: 320px;
+    height: 380px;
+   
+}
+
+p {
+    font-family: myriad-pro;
+}
+
+h2{
+    text-align: center;
+    font-family: rockwell, sans-serif;
+}
+
+.department-card-header {
+    font-family: rockwell, sans-serif;
+    text-align: center;
 }
