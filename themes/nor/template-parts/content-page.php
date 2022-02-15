@@ -27,7 +27,10 @@
 			)
 		);
 		?>
+		
 	</div><!-- .entry-content -->
+
+	
 
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
