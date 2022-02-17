@@ -15,7 +15,7 @@ body {
 }
 
 .search-form {
-    width: 480px;
+    width: 400px;
     
     padding-top: 35px;
 }
@@ -69,4 +69,14 @@ h2{
 .department-card-header {
     font-family: rockwell, sans-serif;
     text-align: center;
+}
+
+img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.h1-about {
+    text-align: center;
+    margin-top: 30px;
 }
