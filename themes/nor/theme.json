@@ -1,24 +1,47 @@
 {
     "version": 1,
+    "styles": {
+        "typography": {
+            "fontSize": "var(--wp--preset--font-size--normal)"
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--huge)"
+                   
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--big)"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--medium)"
+                }
+            }
+        },
     "settings": {
         "color": {
             "palette": [
                 {
                     "name": "Black",
                     "slug": "black",
-                    "color": "##231D1D"
+                    "color": "#231D1D"
                 },
                 {
                     "name": "White",
                     "slug": "white",
-                    "color": "##F8F1F1"
+                    "color": "#F8F1F1"
                 },
                 {
                     "name": "Red",
                     "slug": "red",
-                    "color": "##E61A1A"
+                    "color": "#E61A1A"
                 }
             ]
         }
     }
+}
 }
