@@ -15,14 +15,15 @@
 get_header();
 ?>
 
+
+
 	<main id="primary" class="site-main">
-	
-	<div class="grid-container">
-    <div class="grid-x grid-margin-x">
-	<div class="cell large-4"></div>
-    <div class="cell large-4"><h1 class="h1-about" >About Us</h1></div>
-	<div class="cell large-4"></div>
-	<div class="cell large-12"><hr></div>
+
+	<div class="grid-x grid-margin-x">
+
+    <div class="cell medium-6 large-12"><h1 class="h1-about" >About Us</h1></div>
+    <div class="cell medium-6 large-12"><hr></div>
+    
 
 	<div class="cell large-6"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla volutpat aliquet. Donec suscipit metus eget nunc aliquet pharetra. Nunc ut mi gravida, fringilla tellus et, pulvinar orci. Integer consequat risus nisi, quis ornare sapien ultrices vel. Pellentesque porttitor justo pretium tincidunt tempor. Aenean id sodales risus. Integer sollicitudin mauris dolor.
 
@@ -31,9 +32,8 @@ Sed mattis dolor ut ipsum lacinia convallis. Suspendisse bibendum iaculis velit 
 	<div class="cell large-6"><img src="http://theriault100976473.local/wp-content/uploads/2022/02/Image-2.png" alt=""></div>
 
   </div>
-</div>
+
 	</main><!-- #main -->
 
 <?php
-
 get_footer();

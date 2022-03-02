@@ -178,4 +178,12 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/customizer.php';
 
 
-
+function wpb_custom_new_menu() {
+	register_nav_menus(
+	  array(
+		'my-custom-menu' => __( 'My Custom Menu' ),
+		'extra-menu' => __( 'Extra Menu' )
+	  )
+	);
+  }
+  add_action( 'init', 'wpb_custom_new_menu' );

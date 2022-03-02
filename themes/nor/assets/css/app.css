@@ -12,6 +12,8 @@ body {
 .site-footer {
     background-color: #231D1D;
     height: 200px;
+    margin-top: 200px;
+    padding: 50px;
 }
 
 .search-form {
@@ -39,10 +41,7 @@ body {
     
 }
 
-.site-footer {
-    margin-top: 200px;
-    padding: 50px;
-}
+
 
 .card {
     width: 255px;

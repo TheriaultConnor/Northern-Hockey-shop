@@ -26,9 +26,11 @@
 				?></div>
 				<div class="large-8"></div>
 				<div class=" large-12"><ul>
-					<li>Contact Us</li>
-					<li>About Us</li>
-					<li>Jobs</li>
+				<?php
+wp_nav_menu( array( 
+    'theme_location' => 'my-custom-menu', 
+    'container_class' => 'custom-menu-class' ) ); 
+?>
 				</ul></div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
