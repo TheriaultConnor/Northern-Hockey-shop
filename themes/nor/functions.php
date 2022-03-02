@@ -177,6 +177,8 @@ require get_template_directory() . '/inc/template-functions.php';
  */
 require get_template_directory() . '/inc/customizer.php';
 
+require get_template_directory() . '/inc/block-editor.php';
+
 
 function wpb_custom_new_menu() {
 	register_nav_menus(
