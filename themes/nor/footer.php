@@ -25,12 +25,12 @@
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'nor' ), 'nor', '<a href="http://connortheriault.ca/">Connor Theriault</a>' );
 				?></div>
 				<div class="large-8"></div>
-				<div class=" large-12"><ul>
+				<div class="footer-menu large-12"><ul>
 				<?php
-wp_nav_menu( array( 
-    'theme_location' => 'my-custom-menu', 
-    'container_class' => 'custom-menu-class' ) ); 
-?>
+				wp_nav_menu( array( 
+					'theme_location' => 'my-custom-menu', 
+					'container_class' => 'custom-menu-class' ) ); 
+				?>
 				</ul></div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

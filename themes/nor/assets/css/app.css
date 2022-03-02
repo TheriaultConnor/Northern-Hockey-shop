@@ -11,7 +11,7 @@ body {
 
 .site-footer {
     background-color: #231D1D;
-    height: 200px;
+    height: 300px;
     margin-top: 200px;
     padding: 50px;
 }
@@ -33,15 +33,17 @@ body {
     padding-top: 20px;
 }
 
-.menu_id, a {
-    display: inline-block;
+ a {
+   
     color: white;
     font-family: myriad-pro;
     font-size: 21px;
-    
 }
 
-
+ul > a {
+    display: inline-block;
+    /* You can also add some margins here to make it look prettier */
+}
 
 .card {
     width: 255px;
