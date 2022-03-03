@@ -179,6 +179,8 @@ require get_template_directory() . '/inc/customizer.php';
 
 require get_template_directory() . '/inc/block-editor.php';
 
+require get_template_directory() . '/inc/woocommerce.php';
+
 
 function wpb_custom_new_menu() {
 	register_nav_menus(
