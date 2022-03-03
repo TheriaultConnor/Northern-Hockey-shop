@@ -11,9 +11,13 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
+	<div class="grid-container">
+  <div class="grid-x grid-margin-x">
+   
+  
 
 		<?php if ( have_posts() ) : ?>
-
+			<div class="large-12">
 			<header class="page-header">
 				<?php
 				the_archive_title( '<h1 class="page-title">', '</h1>' );?>
@@ -21,7 +25,8 @@ get_header();
 				<?php the_archive_description( '<div class="archive-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
-
+			</div>
+			<div class="large-12">
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) :
@@ -44,7 +49,9 @@ get_header();
 
 		endif;
 		?>
-
+		</div>
+</div>
+</div>
 	</main><!-- #main -->
 
 <?php

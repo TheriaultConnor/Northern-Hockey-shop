@@ -12,6 +12,9 @@
 
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<div class="grid-container">
+  <div class="grid-x grid-margin-x">
+    <div class="cell large-12">
 	<header class="entry-header">
 		<?php
 		if ( is_singular() ) :
@@ -30,7 +33,7 @@
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-
+    </div>
 	<?php nor_post_thumbnail(); ?>
 
 	<div class="entry-content">
@@ -62,4 +65,6 @@
 	<footer class="entry-footer">
 		<?php nor_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+    </div>
+    </div>
 </article><!-- #post-<?php the_ID(); ?> -->
