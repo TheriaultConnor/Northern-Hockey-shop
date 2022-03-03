@@ -11,8 +11,19 @@ get_header(); ?>
   
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
+        <div class="grid-container">
+  <div class="grid-x grid-margin-x">
 
-		<?php echo get_the_content();  ?>
+  
+  <div class="cell large-12"><h1>	<?php echo get_the_title(  );  ?></h1></div>
+  <div class="cell large-12"><hr></div>
+  <div class="cell large-8"></div>  <div class="cell large-4"><?php echo get_the_date(); echo the_modified_author()?></div>
+  
+
+	<div class="cell large-12">	<?php echo get_the_content();  ?></div>
+
+    
+    <div class="cell large-12"><hr></div>
   
         <?php
         // Start the loop.
@@ -43,7 +54,8 @@ get_header(); ?>
         // End the loop.
         endwhile;
         ?>
-  
+        </div>
+        </div>
         </main><!-- .site-main -->
     </div><!-- .content-area -->
   
