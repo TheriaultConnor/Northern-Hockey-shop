@@ -125,3 +125,8 @@ li {
     list-style-type: none;
 }
 
+.woocommerce {
+    border: 2px solid #231D1D;
+    margin-top: 75px;
+}
+
