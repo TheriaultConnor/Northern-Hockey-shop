@@ -101,3 +101,7 @@ hr {
 label {
     font-family: myriad-pro;
 }
+
+.page-title {
+    text-align: center;
+}
