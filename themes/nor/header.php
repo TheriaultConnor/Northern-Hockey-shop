@@ -29,7 +29,7 @@
 <header class="grid-x header-main">
 <div class="large-5"><ul>
 <nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" id="nav-a" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '', 'nor' ); ?></button>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '', 'nor' ); ?></button>
 			<?php
 			wp_nav_menu(
 				array(

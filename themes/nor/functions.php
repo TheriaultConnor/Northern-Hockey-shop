@@ -190,7 +190,17 @@ function wpb_custom_new_menu() {
 	  )
 	);
   }
-  add_action( 'init', 'wpb_custom_new_menu' );
+  add_action( 'init', 'wpb1_custom_new_menu' );
+
+  function wpb1_custom_new_menu() {
+	register_nav_menus(
+	  array(
+		'my-custom-menu2' => __( 'My Custom Menu2' ),
+		'extra-menu2' => __( 'Extra Menu2' )
+	  )
+	);
+  }
+  add_action( 'init', 'wpb1_custom_new_menu' );
 
   function nor_add_woocommerce_support() {
 	add_theme_support( 'woocommerce' );
