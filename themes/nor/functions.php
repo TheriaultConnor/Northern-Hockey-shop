@@ -191,3 +191,8 @@ function wpb_custom_new_menu() {
 	);
   }
   add_action( 'init', 'wpb_custom_new_menu' );
+
+  function nor_add_woocommerce_support() {
+	add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'nor_add_woocommerce_support' );
