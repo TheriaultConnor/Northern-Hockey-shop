@@ -33,9 +33,16 @@ body {
     padding-top: 20px;
 }
 
+.main-navigation, .primary-menu li a {
+   
+    color: white !important;
+    font-family: myriad-pro;
+    font-size: 21px;
+}
+
 a {
    
-    color: white;
+    color: #F0616F ;
     font-family: myriad-pro;
     font-size: 21px;
 }
