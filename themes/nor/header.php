@@ -40,10 +40,12 @@
 			?>
 		</nav><!-- #site-navigation -->
 </ul></div>	
-<div class="cell large-3"><a href="http://theriault100976473.local/"><h1 id="site-logo"><?php echo get_bloginfo( 'name' ); ?></h1></a> </div>
+<div class="cell large-3"><a href="http://theriault100976473.local/"><h1 id="site-logo">Northern Hockey</h1></a> </div>
 <div class="cell large-4"><?php get_search_form(); ?></div>
 
 
+
+</header>
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
