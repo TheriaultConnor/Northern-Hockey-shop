@@ -90,7 +90,7 @@ h2{
 
 img {
     overflow: hidden;
-    width: 100%;
+  
 }
 
 .h1-about {
@@ -134,3 +134,7 @@ li {
     margin-top: 50px;
 }
 
+.Tutorial-list {
+    text-align: left !important;
+    list-style-type: circle;
+}
