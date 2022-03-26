@@ -32,6 +32,38 @@
 					'container_class' => 'custom-menu-class' ) ); 
 				?>
 				</ul></div>
+
+
+				<?php
+$args = array(  
+  'post_type' => 'any',
+  'post_status' => 'publish',
+  'posts_per_page' => 3,
+  'orderby' => 'date',
+  'order'   => 'DESC',
+);
+
+$test_query = new WP_Query($args);
+
+if($test_query->have_posts()) {
+    while ($test_query->have_posts()) {
+      $test_query->the_post();
+      ?>
+      <h3 id="post-content"><a href="<?php the_permalink(); ?>"><?php the_title(); ?>  </a></h3>
+
+    
+      
+      
+     <?php
+      ?>
+
+      <div id="post-content-text"> <?php the_excerpt(); ?> </div> <?php
+    }
+}
+    ?>
+
+
+
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
