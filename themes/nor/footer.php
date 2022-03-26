@@ -57,7 +57,7 @@ if($test_query->have_posts()) {
      <?php
       ?>
 
-      <div id="post-content-text"> <?php the_excerpt(); ?> </div> <?php
+      <div class="post-content-text"> <?php the_excerpt(); ?> </div> <?php
     }
 }
     ?>

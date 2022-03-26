@@ -2,6 +2,10 @@ body {
     background-color:#F8F1F1;
 }
 
+.hero-image{
+    width: 100%;
+}
+
 .header-main{
     height: 100px;
     background-color: #231D1D;
@@ -11,7 +15,7 @@ body {
 
 .site-footer {
     background-color: #231D1D;
-    height: 300px;
+    height: 500px;
     margin-top: 200px;
     padding: 50px;
 }
@@ -137,4 +141,8 @@ li {
 .Tutorial-list {
     text-align: left !important;
     list-style-type: circle;
+}
+
+.post-content-text {
+    color: #F8F1F1;
 }
