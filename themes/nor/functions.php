@@ -180,6 +180,10 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/block-editor.php';
 
 require get_template_directory() . '/inc/woocommerce.php';
+**
+ * custome post type additions.
+ */
+require get_template_directory() . '/inc/post-types.php';
 
 
 function wpb_custom_new_menu() {
