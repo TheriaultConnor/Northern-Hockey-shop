@@ -180,21 +180,22 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/block-editor.php';
 
 require get_template_directory() . '/inc/woocommerce.php';
-**
+
+/s**
  * custome post type additions.
  */
 require get_template_directory() . '/inc/post-types.php';
 
 
 function wpb_custom_new_menu() {
-	register_nav_menus(
+	register_nav_menus(s
 	  array(
 		'my-custom-menu' => __( 'My Custom Menu' ),
 		'extra-menu' => __( 'Extra Menu' )
 	  )
 	);
   }
-  add_action( 'init', 'wpb1_custom_new_menu' );
+  add_action( 'init', 'wpb1_custom_new_menu' );s
 
   function wpb1_custom_new_menu() {
 	register_nav_menus(
