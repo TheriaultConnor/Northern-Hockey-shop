@@ -49,8 +49,7 @@ body {
     font-size: 21px;
 }
 
-a {
-   
+a {  
     color: #F0616F ;
     font-family: myriad-pro;
     font-size: 21px;
@@ -142,4 +141,26 @@ li {
 
 .post-content-text {
     color: #F8F1F1;
+}
+
+
+@media (min-width: 576px) { 
+
+#site-logo {
+    color: white;
+    font-family: rockwell, sans-serif;
+    padding-top: 16px;
+}
+
+a {  
+    color: #F0616F ;
+    font-family: myriad-pro;
+    font-size: 14px;
+}
+
+ul > a {
+    display: inline-block;
+  
+}
+
 }
