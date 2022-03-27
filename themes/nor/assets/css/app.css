@@ -10,7 +10,7 @@ body {
 }
 
 .header-main{
-    height: 100px;
+   
     background-color: #231D1D;
     justify-content: center;
     
@@ -143,8 +143,39 @@ li {
     color: #F8F1F1;
 }
 
+@media (max-width: 1200px) { 
 
-@media (min-width: 576px) { 
+    #site-logo {
+        color: white;
+        font-family: rockwell, sans-serif;
+        padding-top: 16px;
+    }
+    
+    a {  
+        color: #F0616F ;
+        font-family: myriad-pro;
+        font-size: 14px;
+    }
+    
+    ul > a {
+        display: inline-block;
+      
+    }
+    
+    
+    
+    .site-footer {
+        background-color: #231D1D;
+        height: 700px;
+        margin-top: 100px;
+        padding: 50px;
+    }
+    
+    
+    }
+
+
+@media (max-width: 600px) { 
 
 #site-logo {
     color: white;
@@ -162,5 +193,15 @@ ul > a {
     display: inline-block;
   
 }
+
+
+
+.site-footer {
+    background-color: #231D1D;
+    height: 1100px;
+    margin-top: 100px;
+    padding: 50px;
+}
+
 
 }
