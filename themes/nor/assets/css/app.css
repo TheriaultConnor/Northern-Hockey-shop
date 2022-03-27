@@ -1,5 +1,8 @@
 body {
     background-color:#F8F1F1;
+    
+        margin: 0px 0px 0px 0px;
+    
 }
 
 .hero-image{
@@ -10,7 +13,10 @@ body {
     height: 100px;
     background-color: #231D1D;
     justify-content: center;
-
+    
+    width: 100%;
+    margin-left: 0!important;
+    margin-right: 0!important;
 }
 
 .site-footer {
@@ -22,7 +28,6 @@ body {
 
 .search-form {
     width: 400px;
-    
     padding-top: 35px;
 }
 

@@ -27,7 +27,8 @@
 </head>
 
 <header class="grid-x header-main">
-<div class="large-5"><ul>
+<div class="cell large-3 medium-3 small-3"><a href="http://theriault100976473.local/"><h1 id="site-logo"><?php echo get_bloginfo( 'name' ); ?></h1></a> </div>
+<div class="cell large-5 medium-5 small-5"><ul>
 <nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '', 'nor' ); ?></button>
 			<?php
@@ -40,9 +41,9 @@
 			?>
 		</nav><!-- #site-navigation -->
 </ul></div>	
-<div class="cell large-3"><a href="http://theriault100976473.local/"><h1 id="site-logo"><?php echo get_bloginfo( 'name' ); ?></h1></a> </div>
 
-<div class="cell large-4"><?php get_search_form(); ?></div>
+
+
 
 
 

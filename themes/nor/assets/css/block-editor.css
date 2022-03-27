@@ -6,8 +6,8 @@
     color: tomato;
 }
 
-.entry-content, .product, .entry-footer, .entry-meta {
-    width: 1200px;
+ .product, .entry-footer, .entry-meta {
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
