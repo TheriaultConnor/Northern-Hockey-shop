@@ -15,8 +15,8 @@ get_header(); ?>
   <div class="grid-x grid-margin-x">
 
   
-  <div class="cell large-12"><h1>	<?php echo get_the_title(  );  ?></h1></div>
-  <div class="cell large-12"><hr></div>
+  <div class="cell large-12 medium-12 small-12"><h1>	<?php echo get_the_title(  );  ?></h1></div>
+  <div class="cell large-12 medium-12 small-12"><hr></div>
   <div class="cell large-8"></div>  <div class="cell large-4"><?php echo get_the_date(); echo the_modified_author()?></div>
   
 

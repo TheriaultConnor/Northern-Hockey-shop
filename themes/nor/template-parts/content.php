@@ -14,7 +14,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <div class="grid-container">
   <div class="grid-x grid-margin-x">
-    <div class="cell large-12">
+    <div class="cell large-12 medium-12 small-12">
 	<header class="entry-header">
 		<?php
 		if ( is_singular() ) :

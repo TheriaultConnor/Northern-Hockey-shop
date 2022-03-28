@@ -17,7 +17,7 @@ get_header();
   
 
 		<?php if ( have_posts() ) : ?>
-			<div class="large-12">
+			<div class="large-12 medium-12 small-12">
 			<header class="page-header">
 				<?php
 				the_archive_title( '<h1 class="page-title">', '</h1>' );?>
@@ -26,7 +26,7 @@ get_header();
 				?>
 			</header><!-- .page-header -->
 			</div>
-			<div class="large-12">
+			<div class="large-12 medium-12 small-12">
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) :
