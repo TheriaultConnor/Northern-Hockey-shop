@@ -1,19 +1,16 @@
 body {
     background-color:#F8F1F1;
-    
-        margin: 0px 0px 0px 0px;
-    
+    margin: 0px 0px 0px 0px;
 }
 
 .hero-image{
     width: 100%;
 }
 
+/* header / footer css */
 .header-main{
-   
     background-color: #231D1D;
     justify-content: center;
-    
     width: 100%;
     margin-left: 0!important;
     margin-right: 0!important;
@@ -26,6 +23,7 @@ body {
     padding: 50px;
 }
 
+
 .search-form {
     width: 400px;
     padding-top: 35px;
@@ -36,17 +34,11 @@ body {
    
 }
 
+/* Type changes */
 #site-logo {
     color: white;
     font-family: rockwell, sans-serif;
     padding-top: 20px;
-}
-
-.main-navigation, .primary-menu li a {
-   
-    color: white !important;
-    font-family: myriad-pro;
-    font-size: 21px;
 }
 
 a {  
@@ -57,19 +49,10 @@ a {
 
 ul > a {
     display: inline-block;
-  
-}
-
-
-#department-card {
-    width: 320px;
-    height: 380px;
-   
 }
 
 p {
-    font-family: myriad-pro;
-    
+    font-family: myriad-pro;   
 }
 
 h1{
@@ -85,27 +68,9 @@ h2{
     padding-top: 20px;
 }
 
-.department-card-header {
-    font-family: rockwell, sans-serif;
-    text-align: center;
-}
-
-img {
-    overflow: hidden;
-  
-}
-
 .h1-about {
     text-align: center;
     margin-top: 30px;
-}
-
-.form-container {
-    margin-left: 410px;
-}
-
-input {
-    width: 400px;
 }
 
 hr {
@@ -127,18 +92,11 @@ li {
     list-style-type: none;
 }
 
-.woocommerce {
-    border: 2px solid #231D1D;
-    margin-top: 75px;
-}
 
-.form {
-    margin-top: 50px;
-}
-
-.Tutorial-list {
-    text-align: left !important;
-    list-style-type: circle;
+.main-navigation, .primary-menu li a {
+    color: white !important;
+    font-family: myriad-pro;
+    font-size: 21px;
 }
 
 .post-content-text {
@@ -149,6 +107,35 @@ li {
     margin: 50px;
 }
 
+img {
+    overflow: hidden;
+}
+
+.form-container {
+    margin-left: 410px;
+}
+
+input {
+    width: 400px;
+}
+
+.woocommerce {
+    border: 2px solid #231D1D;
+    margin-top: 75px;
+}
+
+.form {
+    margin-top: 50px;
+}
+
+/* changing list css for tutorial posts */
+.Tutorial-list {
+    text-align: left !important;
+    list-style-type: circle;
+}
+
+
+/* break for medium screens */
 @media (max-width: 1200px) { 
 
     #site-logo {
@@ -168,46 +155,40 @@ li {
       
     }
     
-    
-    
     .site-footer {
         background-color: #231D1D;
         height: 700px;
         margin-top: 100px;
         padding: 50px;
     }
-    
+}
+
+/* small screens break*/
+@media (max-width: 600px) { 
+
+    #site-logo {
+        color: white;
+        font-family: rockwell, sans-serif;
+        padding-top: 50px;
+    }
+
+    a {  
+        color: #F0616F ;
+        font-family: myriad-pro;
+        font-size: 14px;
+    }
+
+    ul > a {
+        display: inline-block;
     
     }
 
-
-@media (max-width: 600px) { 
-
-#site-logo {
-    color: white;
-    font-family: rockwell, sans-serif;
-    padding-top: 50px;
-}
-
-a {  
-    color: #F0616F ;
-    font-family: myriad-pro;
-    font-size: 14px;
-}
-
-ul > a {
-    display: inline-block;
-  
-}
-
-
-
-.site-footer {
-    background-color: #231D1D;
-    height: 1100px;
-    margin-top: 100px;
-    padding: 50px;
-}
+    .site-footer {
+        background-color: #231D1D;
+        height: 1100px;
+        margin-top: 100px;
+        padding: 50px;
+    }
 
 
 }
