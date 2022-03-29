@@ -92,6 +92,10 @@ li {
     list-style-type: none;
 }
 
+.privacy-p {
+    margin: 50px;
+}
+
 
 .main-navigation, .primary-menu li a {
     color: white !important;
